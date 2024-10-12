@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "crtDriver")(type "KiCad")(uri "/mnt/2A83-8328/3dModelsAndArduinoProjects/crtvr/kicadCrtDriver/crtDriver")(options "")(descr ""))
+)
