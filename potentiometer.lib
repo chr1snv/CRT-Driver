@@ -5,7 +5,7 @@
 *        |
 *        2
 *footprint source - https://github.com/KiCad/Potentiometers.pretty/blob/master/Potentiometer_Triwood_RM-065.kicad_mod
-#3d mdl source - https://git.nexlab.net/nexlab/kicad_libs/blob/master/kicad-library/modules/packages3d/Potentiometers.3dshapes/Potentiometer_Triwood_RM-065.wrl
+*3d mdl source - https://git.nexlab.net/nexlab/kicad_libs/blob/master/kicad-library/modules/packages3d/Potentiometers.3dshapes/Potentiometer_Triwood_RM-065.wrl
 .SUBCKT potentiometer 1 2 3 PARAMS: R=2M w=0.5
 R0 1 2 {R*(1-w)}
 R1 2 3 {R*(w)}
