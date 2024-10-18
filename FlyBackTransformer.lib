@@ -1,0 +1,8 @@
+*Coilcraft LPR6235 Series 
+.SUBCKT transformer 1 2 3 4 PARAMS: ind1=12.5u dcr1=0.085 dcr2=200 ratio=50 coef=0.95
+R1 1 11 {dcr1}
+L1 11 2 {ind1}
+R2 3 33 {dcr2}
+L2 33 4 {ind1*ratio}
+K1 L1 L2 {coef}
+.ENDS

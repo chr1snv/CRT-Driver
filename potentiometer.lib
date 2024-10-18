@@ -9,4 +9,6 @@
 .SUBCKT potentiometer 1 2 3 PARAMS: R=2M w=0.5
 R0 1 2 {R*(1-w)}
 R1 2 3 {R*(w)}
+C1 1 2 1P
+C2 2 3 1P
 .ENDS
