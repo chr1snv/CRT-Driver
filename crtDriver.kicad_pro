@@ -582,6 +582,26 @@
     [
       "1e20a25b-0271-4de9-9908-49e7090596cd",
       "Root"
+    ],
+    [
+      "7f2879a0-7d7f-443b-947b-b8771d0122b9",
+      "FocusingCoils"
+    ],
+    [
+      "d0d1e24b-ee14-4afb-aa38-352fef0f73c9",
+      "HorizontalAndVerticalRamp"
+    ],
+    [
+      "01b0fb94-2031-4884-bbd3-53862e3f49b6",
+      "HighVoltageAndFillamentPower"
+    ],
+    [
+      "da9c9b91-ab42-45fd-890b-62edc8347f8c",
+      "LuminosityAmplifier"
+    ],
+    [
+      "0080e4f6-34db-40d8-a319-c2fca20f421a",
+      "BLDC_Driver"
     ]
   ],
   "text_variables": {}

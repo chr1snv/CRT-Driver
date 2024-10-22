@@ -1,0 +1,9 @@
+add controller for hv that checks for lum modulation/horiz lines
+though isn't directly coupled to horiz line frequency
+(as is attached to horizontal pulses, 
+increased resolution lines per second
+may undesirably increase voltage)
+
+add whenult / beam focus coil control (for electron microscope)
+
+add transformer for filament heater
