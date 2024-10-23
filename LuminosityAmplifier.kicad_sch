@@ -2103,7 +2103,7 @@
 		(dnp no)
 		(uuid "6491e1eb-c4b9-4cbf-8187-b8b75588ca41")
 		(property "Reference" "R8"
-			(at 179.07 93.98 90)
+			(at 171.196 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2111,7 @@
 			)
 		)
 		(property "Value" "10000"
-			(at 167.64 93.98 90)
+			(at 178.054 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2180,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 86.36 0)
+			(at 108.712 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

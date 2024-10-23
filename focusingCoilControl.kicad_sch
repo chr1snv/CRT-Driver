@@ -563,6 +563,12 @@
 		(uuid "0b43b474-d544-4d21-bcda-b54fd7b3ba60")
 	)
 	(junction
+		(at 187.96 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12bffd4e-dc34-4e40-8838-6a48f3a875e1")
+	)
+	(junction
 		(at 198.12 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -587,6 +593,12 @@
 		(uuid "2660a220-2565-43c7-af1a-d5655a7ec04c")
 	)
 	(junction
+		(at 187.96 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267fec01-1b4b-4bc2-a6fe-2f85e9ca9a93")
+	)
+	(junction
 		(at 198.12 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -599,19 +611,19 @@
 		(uuid "2b5eb708-ad14-433a-bd46-bb6011bb2e20")
 	)
 	(junction
-		(at 135.89 59.69)
+		(at 152.4 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33191232-0ddc-4bc9-962a-e7e9439bea97")
 	)
 	(junction
-		(at 135.89 101.6)
+		(at 152.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3528006e-e394-4646-8438-ee0bdcf910a6")
 	)
 	(junction
-		(at 135.89 127)
+		(at 152.4 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3621b458-24d2-4ba3-be54-0905d45470a5")
@@ -659,6 +671,12 @@
 		(uuid "70b9c340-c267-4ce1-8295-d341f5d4f9d3")
 	)
 	(junction
+		(at 187.96 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "752732b6-75df-4d00-a411-0774e0d12c44")
+	)
+	(junction
 		(at 200.66 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -695,7 +713,7 @@
 		(uuid "ba0e6ec9-0aa2-49ea-ae46-25d4fef30a85")
 	)
 	(junction
-		(at 137.16 34.29)
+		(at 153.67 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d935eb19-34d4-4d58-8b91-f85a70dfabda")
@@ -728,7 +746,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 187.96 101.6)
+			(xy 152.4 101.6) (xy 187.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -748,7 +766,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 127) (xy 135.89 127)
+			(xy 147.32 127) (xy 152.4 127)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 135.89 101.6)
+			(xy 147.32 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 21.59) (xy 137.16 21.59)
+			(xy 90.17 21.59) (xy 153.67 21.59)
 		)
 		(stroke
 			(width 0)
@@ -778,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 135.89 59.69)
+			(xy 152.4 45.72) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 33.02) (xy 55.88 35.56)
+			(xy 90.17 33.02) (xy 90.17 35.56)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +826,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 29.21) (xy 59.69 29.21)
+			(xy 119.38 29.21) (xy 93.98 29.21)
 		)
 		(stroke
 			(width 0)
@@ -828,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 59.69 96.52)
+			(xy 119.38 96.52) (xy 93.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -838,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 187.96 59.69)
+			(xy 152.4 59.69) (xy 187.96 59.69)
 		)
 		(stroke
 			(width 0)
@@ -868,13 +886,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 87.63) (xy 135.89 87.63)
+			(xy 90.17 87.63) (xy 152.4 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45497ccb-c6cd-4a10-af77-3da67687782b")
+	)
+	(wire
+		(pts
+			(xy 177.8 67.31) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aada91f-c36d-45fb-903a-8e725282113f")
 	)
 	(wire
 		(pts
@@ -908,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 121.92) (xy 59.69 121.92)
+			(xy 119.38 121.92) (xy 93.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 34.29) (xy 187.96 34.29)
+			(xy 153.67 34.29) (xy 187.96 34.29)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 21.59) (xy 137.16 34.29)
+			(xy 153.67 21.59) (xy 153.67 34.29)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 118.11) (xy 55.88 113.03)
+			(xy 90.17 118.11) (xy 90.17 113.03)
 		)
 		(stroke
 			(width 0)
@@ -978,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 127) (xy 187.96 127)
+			(xy 152.4 127) (xy 187.96 127)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 135.89 45.72)
+			(xy 90.17 45.72) (xy 152.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -998,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 125.73) (xy 55.88 128.27)
+			(xy 90.17 125.73) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1008,13 +1036,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 58.42) (xy 55.88 60.96)
+			(xy 90.17 58.42) (xy 90.17 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f242a1c-2ead-4965-a0c2-c2e008f1cb4b")
+	)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 177.8 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc19bdf-6351-44ae-be2a-d5eac18205de")
 	)
 	(wire
 		(pts
@@ -1068,6 +1106,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 67.31) (xy 187.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911336ab-8fd6-460d-8faf-02f1d639e7cd")
+	)
+	(wire
+		(pts
 			(xy 200.66 34.29) (xy 200.66 46.99)
 		)
 		(stroke
@@ -1078,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 113.03) (xy 135.89 113.03)
+			(xy 90.17 113.03) (xy 152.4 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1088,13 +1136,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 25.4) (xy 55.88 21.59)
+			(xy 90.17 25.4) (xy 90.17 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93ad9b15-1fdf-4fa9-b5e1-50dcb9eabaac")
+	)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948896ae-6977-4cb8-84ec-53d4ccd1663d")
 	)
 	(wire
 		(pts
@@ -1118,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 92.71) (xy 55.88 87.63)
+			(xy 90.17 92.71) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 34.29) (xy 137.16 34.29)
+			(xy 147.32 34.29) (xy 153.67 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 100.33) (xy 55.88 102.87)
+			(xy 90.17 100.33) (xy 90.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 135.89 101.6)
+			(xy 152.4 87.63) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1248,13 +1306,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 113.03) (xy 135.89 127)
+			(xy 152.4 113.03) (xy 152.4 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ceea8e6c-2c3a-448b-af2c-d608081c91c3")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 177.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4635cb-7a19-465d-a8c6-c5f72bc1b9f8")
 	)
 	(wire
 		(pts
@@ -1268,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 54.61) (xy 59.69 54.61)
+			(xy 119.38 54.61) (xy 93.98 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 59.69) (xy 135.89 59.69)
+			(xy 147.32 59.69) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1426,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 55.88 45.72)
+			(xy 177.8 134.62) (xy 187.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f103e5ed-1a85-4479-be9c-bfc3b5918116")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 90.17 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 55.88 54.61 0)
+		(at 90.17 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1476,7 +1554,7 @@
 		(dnp no)
 		(uuid "13dea028-a55f-4b1b-9cf9-22c8272dc3d3")
 		(property "Reference" "RV13"
-			(at 53.34 53.34 0)
+			(at 87.63 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +1563,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 53.34 55.88 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1573,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
-			(at 55.88 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1600,7 @@
 			)
 		)
 		(property "Sim.Library" "potentiometer.lib"
-			(at 55.88 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1609,7 @@
 			)
 		)
 		(property "Sim.Name" "potentiometer"
-			(at 55.88 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1618,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 55.88 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1627,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 55.88 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +1636,7 @@
 			)
 		)
 		(property "Sim.Params" "R=2000 w=0.175"
-			(at 44.45 55.88 0)
+			(at 78.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1663,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 55.88 96.52 0)
+		(at 90.17 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1593,7 +1671,7 @@
 		(dnp no)
 		(uuid "142494fe-9c71-4845-a8c7-e359419eac1f")
 		(property "Reference" "RV8"
-			(at 53.34 95.25 0)
+			(at 87.63 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1680,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 53.34 97.79 0)
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1690,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
-			(at 55.88 96.52 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 96.52 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 96.52 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1717,7 @@
 			)
 		)
 		(property "Sim.Library" "potentiometer.lib"
-			(at 55.88 96.52 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1726,7 @@
 			)
 		)
 		(property "Sim.Name" "potentiometer"
-			(at 55.88 96.52 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1735,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 55.88 96.52 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1744,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 55.88 96.52 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1753,7 @@
 			)
 		)
 		(property "Sim.Params" "R=2000 w=0.175"
-			(at 44.45 97.79 0)
+			(at 78.74 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,6 +1773,107 @@
 			(project "crtDriver"
 				(path "/1e20a25b-0271-4de9-9908-49e7090596cd/7f2879a0-7d7f-443b-947b-b8771d0122b9"
 					(reference "RV8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2900717d-e683-4c79-bc7f-1d9bb01bf6dc")
+		(property "Reference" "#PWR0115"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=0"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaddc992-3f46-4456-aad2-565106f4e0f6")
+		)
+		(instances
+			(project "crtDriver"
+				(path "/1e20a25b-0271-4de9-9908-49e7090596cd/7f2879a0-7d7f-443b-947b-b8771d0122b9"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -1772,7 +1951,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 55.88 121.92 0)
+		(at 90.17 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1780,7 +1959,7 @@
 		(dnp no)
 		(uuid "3548cdfb-697d-47cf-bd4c-d770f3bbd34c")
 		(property "Reference" "RV10"
-			(at 53.34 120.65 0)
+			(at 87.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1968,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 53.34 123.19 0)
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1978,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
-			(at 55.88 121.92 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 121.92 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 121.92 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +2005,7 @@
 			)
 		)
 		(property "Sim.Library" "potentiometer.lib"
-			(at 55.88 121.92 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +2014,7 @@
 			)
 		)
 		(property "Sim.Name" "potentiometer"
-			(at 55.88 121.92 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +2023,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 55.88 121.92 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +2032,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 55.88 121.92 0)
+			(at 90.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +2041,7 @@
 			)
 		)
 		(property "Sim.Params" "R=2000 w=0.175"
-			(at 44.45 123.19 0)
+			(at 78.74 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2348,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 128.27 0)
+		(at 90.17 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2177,7 +2356,7 @@
 		(dnp no)
 		(uuid "58847bb1-895e-455f-a605-f0edf0ced622")
 		(property "Reference" "#PWR0106"
-			(at 55.88 134.62 0)
+			(at 90.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2365,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 130.81 0)
+			(at 92.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2400,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 55.88 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2409,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 55.88 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2418,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+"
-			(at 55.88 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2427,7 @@
 			)
 		)
 		(property "Sim.Params" "dc=0"
-			(at 55.88 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2449,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 35.56 0)
+		(at 90.17 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2278,7 +2457,7 @@
 		(dnp no)
 		(uuid "59b26f89-5370-4777-88ac-ab93ae294207")
 		(property "Reference" "#PWR083"
-			(at 55.88 41.91 0)
+			(at 90.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 38.1 0)
+			(at 92.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 35.56 0)
+			(at 90.17 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 35.56 0)
+			(at 90.17 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 35.56 0)
+			(at 90.17 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2501,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 55.88 35.56 0)
+			(at 90.17 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2510,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 55.88 35.56 0)
+			(at 90.17 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2519,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+"
-			(at 55.88 35.56 0)
+			(at 90.17 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +2528,7 @@
 			)
 		)
 		(property "Sim.Params" "dc=0"
-			(at 55.88 35.56 0)
+			(at 90.17 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2690,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 102.87 0)
+		(at 90.17 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2519,7 +2698,7 @@
 		(dnp no)
 		(uuid "7e564df4-9cc0-4173-a3ef-d17032036f82")
 		(property "Reference" "#PWR098"
-			(at 55.88 109.22 0)
+			(at 90.17 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 105.41 0)
+			(at 92.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 102.87 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 102.87 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 102.87 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2742,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 55.88 102.87 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2751,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 55.88 102.87 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2760,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+"
-			(at 55.88 102.87 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2769,7 @@
 			)
 		)
 		(property "Sim.Params" "dc=0"
-			(at 55.88 102.87 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,6 +2784,107 @@
 			(project "crtDriver"
 				(path "/1e20a25b-0271-4de9-9908-49e7090596cd/7f2879a0-7d7f-443b-947b-b8771d0122b9"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94d2faa1-2992-4197-9988-f48f07ebe08e")
+		(property "Reference" "#PWR0114"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=0"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc5c03e9-65ac-44d6-84af-d8a7a54cbb93")
+		)
+		(instances
+			(project "crtDriver"
+				(path "/1e20a25b-0271-4de9-9908-49e7090596cd/7f2879a0-7d7f-443b-947b-b8771d0122b9"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -2892,7 +3172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 60.96 0)
+		(at 90.17 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2900,7 +3180,7 @@
 		(dnp no)
 		(uuid "ab0b462d-4ba4-4f49-ae11-9c9248368e3f")
 		(property "Reference" "#PWR084"
-			(at 55.88 67.31 0)
+			(at 90.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +3189,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 63.5 0)
+			(at 92.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +3197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 60.96 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,7 +3206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 60.96 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 60.96 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3224,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 55.88 60.96 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +3233,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 55.88 60.96 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +3242,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+"
-			(at 55.88 60.96 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +3251,7 @@
 			)
 		)
 		(property "Sim.Params" "dc=0"
-			(at 55.88 60.96 0)
+			(at 90.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,6 +3266,107 @@
 			(project "crtDriver"
 				(path "/1e20a25b-0271-4de9-9908-49e7090596cd/7f2879a0-7d7f-443b-947b-b8771d0122b9"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d71cb089-205f-429e-a986-463fa09a6a95")
+		(property "Reference" "#PWR0116"
+			(at 177.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "dc=0"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e061d158-0634-4535-b2e0-364716a47622")
+		)
+		(instances
+			(project "crtDriver"
+				(path "/1e20a25b-0271-4de9-9908-49e7090596cd/7f2879a0-7d7f-443b-947b-b8771d0122b9"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -3444,7 +3825,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 55.88 29.21 0)
+		(at 90.17 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3452,7 +3833,7 @@
 		(dnp no)
 		(uuid "f3a0a189-779a-4677-b938-6537520367a4")
 		(property "Reference" "RV7"
-			(at 53.34 27.94 0)
+			(at 87.63 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3842,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 53.34 30.48 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3852,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
-			(at 55.88 29.21 0)
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 29.21 0)
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3870,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 29.21 0)
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3879,7 @@
 			)
 		)
 		(property "Sim.Library" "potentiometer.lib"
-			(at 55.88 29.21 0)
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3888,7 @@
 			)
 		)
 		(property "Sim.Name" "potentiometer"
-			(at 55.88 29.21 0)
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3897,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 55.88 29.21 0)
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3906,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 55.88 29.21 0)
+			(at 90.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3915,7 @@
 			)
 		)
 		(property "Sim.Params" "R=2000 w=0.175"
-			(at 44.45 30.48 0)
+			(at 78.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3941,7 @@
 		)
 	)
 	(sheet
-		(at 102.87 119.38)
+		(at 119.38 119.38)
 		(size 27.94 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -3572,7 +3953,7 @@
 		)
 		(uuid "23a69d6c-3f0e-43b5-a0a5-49bd1771dd31")
 		(property "Sheetname" "PWMAmplifier3"
-			(at 102.87 118.6684 0)
+			(at 119.38 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3962,7 @@
 			)
 		)
 		(property "Sheetfile" "PWMAmplifier.kicad_sch"
-			(at 102.87 130.1246 0)
+			(at 119.38 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3971,7 @@
 			)
 		)
 		(pin "SELECTED_RAMP_OUT" output
-			(at 130.81 127 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3981,7 @@
 			(uuid "8f071cd6-26e8-4d34-a976-4862275797a8")
 		)
 		(pin "Scaled_Ramp_IN" output
-			(at 102.87 121.92 180)
+			(at 119.38 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3999,7 @@
 		)
 	)
 	(sheet
-		(at 102.87 52.07)
+		(at 119.38 52.07)
 		(size 27.94 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -3630,7 +4011,7 @@
 		)
 		(uuid "8413d272-f66f-4a74-bb4a-3b29c465562c")
 		(property "Sheetname" "PWMAmplifier1"
-			(at 102.87 51.3584 0)
+			(at 119.38 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +4020,7 @@
 			)
 		)
 		(property "Sheetfile" "PWMAmplifier.kicad_sch"
-			(at 102.87 62.8146 0)
+			(at 119.38 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +4029,7 @@
 			)
 		)
 		(pin "SELECTED_RAMP_OUT" output
-			(at 130.81 59.69 0)
+			(at 147.32 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +4039,7 @@
 			(uuid "cd1a28f3-aae4-4205-aa2e-13584d828084")
 		)
 		(pin "Scaled_Ramp_IN" output
-			(at 102.87 54.61 180)
+			(at 119.38 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +4057,7 @@
 		)
 	)
 	(sheet
-		(at 102.87 93.98)
+		(at 119.38 93.98)
 		(size 27.94 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -3688,7 +4069,7 @@
 		)
 		(uuid "c68952ee-59ae-4ac4-8070-2d5e78426f0a")
 		(property "Sheetname" "PWMAmplifier2"
-			(at 102.87 93.2684 0)
+			(at 119.38 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +4078,7 @@
 			)
 		)
 		(property "Sheetfile" "PWMAmplifier.kicad_sch"
-			(at 102.87 104.7246 0)
+			(at 119.38 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +4087,7 @@
 			)
 		)
 		(pin "SELECTED_RAMP_OUT" output
-			(at 130.81 101.6 0)
+			(at 147.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +4097,7 @@
 			(uuid "35935a98-d7dc-4d39-b11a-bdbb7cf9f57a")
 		)
 		(pin "Scaled_Ramp_IN" output
-			(at 102.87 96.52 180)
+			(at 119.38 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +4115,7 @@
 		)
 	)
 	(sheet
-		(at 102.87 26.67)
+		(at 119.38 26.67)
 		(size 27.94 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -3746,7 +4127,7 @@
 		)
 		(uuid "d0365d15-040d-4c91-99c5-2b73453607c3")
 		(property "Sheetname" "PWMAmplifier"
-			(at 102.87 25.9584 0)
+			(at 119.38 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +4136,7 @@
 			)
 		)
 		(property "Sheetfile" "PWMAmplifier.kicad_sch"
-			(at 102.87 37.4146 0)
+			(at 119.38 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +4145,7 @@
 			)
 		)
 		(pin "SELECTED_RAMP_OUT" output
-			(at 130.81 34.29 0)
+			(at 147.32 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4155,7 @@
 			(uuid "3983685f-ee72-440f-9eb2-157d84f27e7a")
 		)
 		(pin "Scaled_Ramp_IN" output
-			(at 102.87 29.21 180)
+			(at 119.38 29.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3762,12 +3762,6 @@
 		)
 	)
 	(junction
-		(at 57.15 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1318ec9f-eddb-4fa6-a010-25714bb8b4d4")
-	)
-	(junction
 		(at 160.02 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3862,6 +3856,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b595d605-fac4-4869-b7f1-f85a984b6211")
+	)
+	(junction
+		(at 73.66 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c37df4cb-540d-4130-bd35-99098afa74e1")
 	)
 	(junction
 		(at 148.59 157.48)
@@ -4020,6 +4020,16 @@
 			(type default)
 		)
 		(uuid "10b6a3c8-376b-4f9a-b3eb-289a2bdf5f9b")
+	)
+	(wire
+		(pts
+			(xy 57.15 30.48) (xy 59.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126b5a9a-fb5b-4f2c-b991-b12d938e498f")
 	)
 	(wire
 		(pts
@@ -4183,7 +4193,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 54.61) (xy 57.15 30.48)
+			(xy 73.66 30.48) (xy 73.66 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5013,16 +5023,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 30.48) (xy 57.15 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a61c78ae-687e-4a83-8401-56e2f07be9b4")
-	)
-	(wire
-		(pts
 			(xy 158.75 26.67) (xy 160.02 26.67)
 		)
 		(stroke
@@ -5220,6 +5220,16 @@
 			(type default)
 		)
 		(uuid "cd101dd6-37e5-4445-a948-b1944659b4fb")
+	)
+	(wire
+		(pts
+			(xy 57.15 43.18) (xy 57.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf73ef08-92fc-4d73-b610-eb13bc88ee73")
 	)
 	(wire
 		(pts
@@ -5493,6 +5503,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 43.18) (xy 73.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a80c27-514b-47ed-9060-3c3e5bbd98d7")
+	)
+	(wire
+		(pts
 			(xy 139.7 96.52) (xy 139.7 95.25)
 		)
 		(stroke
@@ -5510,6 +5530,16 @@
 			(type default)
 		)
 		(uuid "f4458d94-df27-43e1-b6b5-a6422b6d89c3")
+	)
+	(wire
+		(pts
+			(xy 67.31 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4797322-d05f-446b-ad98-5dff1c913e1d")
 	)
 	(wire
 		(pts
@@ -5540,6 +5570,16 @@
 			(type default)
 		)
 		(uuid "f847df46-81b8-4440-9b0c-1efd242d89f2")
+	)
+	(wire
+		(pts
+			(xy 73.66 25.4) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88fc4ef-e83b-449d-9f77-46b3afcd5576")
 	)
 	(wire
 		(pts
@@ -5931,6 +5971,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "irf3205.spi"
+			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "irf3205"
+			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2212463e-c32e-42fc-aa24-6619bd56ae0a")
 		)
@@ -5968,7 +6044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.837 99.6442 0)
+			(at 90.17 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6438,7 @@
 		(lib_id "RF_Module:ESP32-WROOM-32")
 		(at 35.56 130.81 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6623,7 +6699,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.297 127.5842 0)
+			(at 87.122 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6749,7 @@
 		(lib_id "RF_Module:ESP-12E")
 		(at 57.15 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6941,7 +7017,7 @@
 		(dnp no)
 		(uuid "2f7fcc0d-5ccc-4a2c-a5c0-e7af190b5909")
 		(property "Reference" "Q17"
-			(at 121.92 64.77 90)
+			(at 126.238 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +7026,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 125.73 58.42 90)
+			(at 126.492 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,6 +7056,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "2n7000.lib"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N7000"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 128.27 64.77 0)
 			(effects
 				(font
@@ -7211,7 +7323,7 @@
 		(dnp no)
 		(uuid "33a0d573-5961-480a-ad2a-858bf801f463")
 		(property "Reference" "D13"
-			(at 242.57 92.71 90)
+			(at 243.586 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +7331,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 245.11 95.25 90)
+			(at 245.364 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,6 +7357,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 240.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 240.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
 			(at 240.03 92.71 0)
 			(effects
 				(font
@@ -7603,7 +7733,7 @@
 		(dnp no)
 		(uuid "3f735ef4-81f2-4fbd-9d6f-dfad032340f0")
 		(property "Reference" "R20"
-			(at 96.52 139.7 90)
+			(at 99.568 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,7 +7742,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 101.6 139.7 90)
+			(at 99.822 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,6 +7979,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "irf3205.spi"
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "irf3205"
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10b225ff-6be3-4027-aa7f-9ba509e03404")
 		)
@@ -7924,6 +8090,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "irf3205.spi"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "irf3205"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d93f97a8-1cc3-4a39-a0d1-b568f60044a1")
 		)
@@ -7991,6 +8193,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 146.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "irf3205.spi"
+			(at 146.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "irf3205"
+			(at 146.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 146.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 146.05 151.13 0)
 			(effects
 				(font
@@ -8131,6 +8369,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "irf3205.spi"
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "irf3205"
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 146.05 165.1 0)
 			(effects
 				(font
@@ -8476,6 +8750,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "PC817.lib"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0acd526f-4784-438d-8d11-4931d97bc90b")
 		)
@@ -8686,6 +8996,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "PC817.lib"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5eb520b2-647f-4368-b773-f773ebeb57de")
 		)
@@ -8711,7 +9057,7 @@
 		(lib_id "Regulator_Switching:LM2576HVS-5")
 		(at 44.45 27.94 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9003,7 +9349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.757 37.4142 0)
+			(at 84.582 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9234,6 +9580,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "PC817.lib"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49f12fef-521c-430c-a532-ce6433ce340e")
 		)
@@ -9265,7 +9647,7 @@
 		(dnp no)
 		(uuid "889b4a5f-f99f-48ab-8ed6-a96f21b00ce7")
 		(property "Reference" "R19"
-			(at 96.52 125.73 90)
+			(at 99.568 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9656,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 101.6 125.73 90)
+			(at 99.822 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +9794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.297 113.6142 0)
+			(at 87.376 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9859,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 132.08 121.92 90)
+			(at 133.604 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,6 +9964,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "PC817.lib"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83fedf65-f175-4bf4-ae6e-f788821877ad")
 		)
@@ -9652,6 +10070,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "irf3205.spi"
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "irf3205"
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -9751,7 +10205,7 @@
 		(lib_id "Connector:Conn_01x03_Female")
 		(at 259.08 130.81 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9894,7 +10348,7 @@
 		(dnp no)
 		(uuid "9e66c6c8-272a-498f-8b25-b1f0b33f0150")
 		(property "Reference" "Q19"
-			(at 151.13 96.52 0)
+			(at 151.384 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +10357,7 @@
 			)
 		)
 		(property "Value" "IRF3205"
-			(at 151.13 99.06 0)
+			(at 151.384 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,6 +10387,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "irf3205.spi"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "irf3205"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -10172,7 +10662,7 @@
 		(dnp no)
 		(uuid "a69e52e6-6aa3-492d-9341-4fcfcb604603")
 		(property "Reference" "R17"
-			(at 91.44 35.56 90)
+			(at 95.758 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10671,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 97.79 35.56 90)
+			(at 94.742 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,6 +10838,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fa3330b-bcf8-4ca4-97b2-69766f867e5f")
 		)
@@ -10503,7 +11011,7 @@
 		(dnp no)
 		(uuid "b2ce8ce3-d909-4a62-8126-2449d4d3fc87")
 		(property "Reference" "R28"
-			(at 123.19 115.57 90)
+			(at 122.174 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,6 +11137,73 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 63.5 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b85f060b-09c4-4f99-ac0d-7628bb4c1d7f")
+		(property "Reference" "R48"
+			(at 63.5 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 63.5 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.754 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21acf00b-a8c4-44ec-af7a-7cbe85b7d745")
+		)
+		(pin "2"
+			(uuid "34c80620-8b89-451e-93dc-f7b7de3dfce9")
+		)
+		(instances
+			(project ""
+				(path "/1e20a25b-0271-4de9-9908-49e7090596cd/0080e4f6-34db-40d8-a319-c2fca20f421a"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 99.06 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10637,7 +11212,7 @@
 		(dnp no)
 		(uuid "ba046adf-f341-40fa-9c8e-1e42410eeafe")
 		(property "Reference" "R23"
-			(at 96.52 97.79 90)
+			(at 100.584 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10646,7 +11221,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 102.87 97.79 90)
+			(at 100.584 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +11290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.297 141.5542 0)
+			(at 87.122 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10771,7 +11346,7 @@
 		(dnp no)
 		(uuid "bb0c8307-857d-4776-bd4e-3ed8814bc65b")
 		(property "Reference" "R18"
-			(at 95.25 111.76 90)
+			(at 99.314 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +11355,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 101.6 111.76 90)
+			(at 99.314 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,7 +11560,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 172.72 58.42 0)
+			(at 169.418 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,6 +11586,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
 			(at 163.83 59.69 0)
 			(effects
 				(font
@@ -11110,7 +11703,7 @@
 		(dnp no)
 		(uuid "ceadfbdf-d006-415e-ac08-f7cd96aa161d")
 		(property "Reference" "Q25"
-			(at 231.14 109.22 0)
+			(at 231.902 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +11712,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 231.14 114.3 0)
+			(at 230.124 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,6 +11750,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "2n7000.lib"
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N7000"
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "113d6a31-5195-4901-a5c3-ae96033c58d4")
 		)
@@ -11185,7 +11814,7 @@
 		(dnp no)
 		(uuid "d3382d08-a4e2-4231-a3d3-78648c7a8edd")
 		(property "Reference" "R22"
-			(at 96.52 167.64 90)
+			(at 96.52 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11823,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 101.6 167.64 90)
+			(at 103.632 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11952,7 @@
 		(dnp no)
 		(uuid "df0927df-fda6-46cc-9175-a6e41f773a71")
 		(property "Reference" "C20"
-			(at 220.98 83.82 0)
+			(at 222.758 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11961,7 @@
 			)
 		)
 		(property "Value" "4.7uF 25V"
-			(at 224.79 83.82 0)
+			(at 219.456 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +12097,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "9u"
 			(at 140.97 20.9804 0)
 			(effects
 				(font
@@ -11638,6 +12267,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "PC817.lib"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ef4423d-5844-4703-8389-d06da5f84edf")
 		)
@@ -11779,6 +12444,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "PC817.lib"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9b7b36a-fd57-411b-8cb2-6e15aafdeef0")
 		)
@@ -11802,7 +12503,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 67.31 30.48 0)
+		(at 73.66 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11810,7 +12511,7 @@
 		(dnp no)
 		(uuid "e8b3e4b8-36dd-4cc6-986a-6bb60662846a")
 		(property "Reference" "#PWR042"
-			(at 67.31 34.29 0)
+			(at 73.66 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +12520,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 67.691 26.0858 0)
+			(at 74.041 21.0058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11827,7 +12528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 30.48 0)
+			(at 73.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,7 +12537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 30.48 0)
+			(at 73.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11845,7 +12546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 30.48 0)
+			(at 73.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,6 +12686,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "PC817.lib"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9b185e2-1c9f-47de-8a67-9d1041f8b88d")
 		)
@@ -12024,7 +12761,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 172.72 68.58 0)
+			(at 169.418 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,6 +12787,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
 			(at 163.83 69.85 0)
 			(effects
 				(font
@@ -12156,7 +12911,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 172.72 63.5 0)
+			(at 169.418 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,6 +12937,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
 			(at 163.83 64.77 0)
 			(effects
 				(font
@@ -12253,6 +13026,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "PC817.lib"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "PC817C"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
 			(at 106.68 64.77 0)
 			(effects
 				(font
