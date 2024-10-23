@@ -602,6 +602,22 @@
     [
       "0080e4f6-34db-40d8-a319-c2fca20f421a",
       "BLDC_Driver"
+    ],
+    [
+      "d0365d15-040d-4c91-99c5-2b73453607c3",
+      "PWMAmplifier"
+    ],
+    [
+      "8413d272-f66f-4a74-bb4a-3b29c465562c",
+      "PWMAmplifier1"
+    ],
+    [
+      "c68952ee-59ae-4ac4-8070-2d5e78426f0a",
+      "PWMAmplifier2"
+    ],
+    [
+      "23a69d6c-3f0e-43b5-a0a5-49bd1771dd31",
+      "PWMAmplifier3"
     ]
   ],
   "text_variables": {}

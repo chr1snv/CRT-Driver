@@ -1105,7 +1105,7 @@
 	)
 	(text "Joule Thompson cryocooler\ncompressor bldc driver"
 		(exclude_from_sim no)
-		(at 152.4 142.494 0)
+		(at 170.18 142.24 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2224,8 +2224,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 147.32)
-		(size 20.32 5.08)
+		(at 73.66 144.78)
+		(size 25.4 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2236,7 +2236,7 @@
 		)
 		(uuid "0080e4f6-34db-40d8-a319-c2fca20f421a")
 		(property "Sheetname" "BLDC_Driver"
-			(at 63.5 146.6084 0)
+			(at 73.66 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2245,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_Driver.kicad_sch"
-			(at 63.5 152.9846 0)
+			(at 73.66 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
