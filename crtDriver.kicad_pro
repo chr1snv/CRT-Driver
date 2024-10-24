@@ -618,6 +618,14 @@
     [
       "23a69d6c-3f0e-43b5-a0a5-49bd1771dd31",
       "PWMAmplifier3"
+    ],
+    [
+      "fe42ec54-24c3-408d-8f6a-f1078aeb18e8",
+      "BLDC_Driver1"
+    ],
+    [
+      "c4733130-d8c5-4553-8468-9dbbe828483a",
+      "BLDC_Driver2"
     ]
   ],
   "text_variables": {}

@@ -1213,26 +1213,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 71.12 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07fe7efa-78f5-4442-91b7-9a8cbe3518ee")
-	)
-	(wire
-		(pts
-			(xy 71.12 77.47) (xy 92.71 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf11a5f-4f0c-483d-9095-343ab62881ba")
-	)
-	(wire
-		(pts
 			(xy 124.46 115.57) (xy 124.46 116.84)
 		)
 		(stroke
@@ -1343,16 +1323,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 53.34) (xy 170.18 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c09567-a0d4-4226-9987-b0b8dfd23e53")
-	)
-	(wire
-		(pts
 			(xy 158.75 124.46) (xy 138.43 124.46)
 		)
 		(stroke
@@ -1403,6 +1373,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603c5e43-4fe5-4a69-b4f6-1919744d197a")
+	)
+	(wire
+		(pts
 			(xy 152.4 78.74) (xy 151.13 78.74)
 		)
 		(stroke
@@ -1443,7 +1423,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.39) (xy 71.12 72.39)
+			(xy 69.85 77.47) (xy 92.71 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1663,6 +1643,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 72.39) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45afc57-4fa5-4366-a88a-8cbc40453b5c")
+	)
+	(wire
+		(pts
 			(xy 132.08 82.55) (xy 132.08 83.82)
 		)
 		(stroke
@@ -1760,7 +1750,7 @@
 	)
 	(hierarchical_label "SELECTED_RAMP_OUT"
 		(shape output)
-		(at 170.18 55.88 0)
+		(at 204.47 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1771,14 +1761,14 @@
 		(uuid "27dc47ec-2713-4793-b167-4e3bb8f5f26d")
 	)
 	(hierarchical_label "Scaled_Ramp_IN"
-		(shape output)
-		(at 72.39 72.39 0)
+		(shape input)
+		(at 69.85 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f364e714-5938-47c3-ad1c-f87ff2033dd9")
 	)
@@ -1792,7 +1782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03807dc8-57a0-4f11-8d25-520bcd453219")
-		(property "Reference" "D14"
+		(property "Reference" "D20"
 			(at 147.32 73.66 0)
 			(effects
 				(font
@@ -1898,7 +1888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09209e56-0c07-4769-b1af-45a410941e0e")
-		(property "Reference" "RV14"
+		(property "Reference" "RV16"
 			(at 127 78.74 90)
 			(effects
 				(font
@@ -2028,7 +2018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c6ad8b2-2d0d-4aed-9dda-f021799da916")
-		(property "Reference" "Q30"
+		(property "Reference" "Q46"
 			(at 146.05 69.85 0)
 			(effects
 				(font
@@ -2158,7 +2148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c389c9f-065c-4876-9fe9-c31dfd4ce6ae")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0112"
 			(at 166.37 139.7 0)
 			(effects
 				(font
@@ -2271,7 +2261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "218c86ec-f0c8-4a00-822c-8698ff0a600d")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0110"
 			(at 142.24 66.04 0)
 			(effects
 				(font
@@ -2348,7 +2338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2785a591-9d65-4d5d-a224-b20f1d239d2b")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0113"
 			(at 190.5 88.9 0)
 			(effects
 				(font
@@ -2425,7 +2415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ad35478-1a63-4d27-9a90-3de5bda69323")
-		(property "Reference" "D15"
+		(property "Reference" "D21"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -2531,7 +2521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "318c69bb-41c0-4854-99c5-f5c4a9499953")
-		(property "Reference" "R42"
+		(property "Reference" "R46"
 			(at 119.38 110.49 90)
 			(effects
 				(font
@@ -2610,7 +2600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec2aeb5-fc45-4a95-9225-ce9af50cb786")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0109"
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -2723,7 +2713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51732cf1-8134-4476-b500-3c8b0919cbe1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0108"
 			(at 124.46 109.22 0)
 			(effects
 				(font
@@ -2801,7 +2791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6977d6b8-5ff3-4515-9e14-4f1d869249b4")
-		(property "Reference" "Q28"
+		(property "Reference" "Q47"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -2931,7 +2921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "851d0f38-ea7d-457d-b8a3-1318221ced98")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0107"
 			(at 92.71 99.06 0)
 			(effects
 				(font
@@ -3045,7 +3035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7bc1b6c-e941-4e7c-9ddd-d8ff91c8092f")
-		(property "Reference" "Q29"
+		(property "Reference" "Q44"
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -3175,7 +3165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a88dc9db-1dbd-499f-8e89-00f6280c3c47")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0111"
 			(at 142.24 115.57 0)
 			(effects
 				(font
@@ -3289,7 +3279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a983451b-53c1-43ea-bd29-86df1ba89c2d")
-		(property "Reference" "Q31"
+		(property "Reference" "Q48"
 			(at 168.91 121.92 0)
 			(effects
 				(font
@@ -3419,7 +3409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bff4bcc9-4f4b-4ae4-af9e-bc6f98691069")
-		(property "Reference" "Q32"
+		(property "Reference" "Q49"
 			(at 185.42 85.09 90)
 			(effects
 				(font
@@ -3550,7 +3540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d85c2251-13d7-4471-b7b8-60c40c33b094")
-		(property "Reference" "R41"
+		(property "Reference" "R47"
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -3631,7 +3621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbe19c72-7a69-42e8-8e9c-1c78a3489a91")
-		(property "Reference" "C21"
+		(property "Reference" "C28"
 			(at 154.94 83.8263 0)
 			(effects
 				(font
@@ -3712,7 +3702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e318eb86-c5ac-4ab3-9180-18403e439cb0")
-		(property "Reference" "Q27"
+		(property "Reference" "Q45"
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -3843,7 +3833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f284cd8f-2ced-4433-85e6-95bb9b08f9fe")
-		(property "Reference" "C22"
+		(property "Reference" "C27"
 			(at 95.25 82.5563 0)
 			(effects
 				(font

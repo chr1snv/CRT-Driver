@@ -1248,10 +1248,10 @@
 		(uuid "12efc747-6369-414f-88ec-c4c26704c6b6")
 	)
 	(junction
-		(at 151.13 92.71)
+		(at 151.13 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f10289d-674c-497d-ad37-156e913b6835")
+		(uuid "14a11a6f-656b-4b53-b186-a20f4dc39167")
 	)
 	(wire
 		(pts
@@ -1262,6 +1262,16 @@
 			(type default)
 		)
 		(uuid "06b4141b-edcf-41c2-a0d3-89e051422de4")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08fe4422-9f0c-4ac8-b5b8-e77c8f305723")
 	)
 	(wire
 		(pts
@@ -1375,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 92.71) (xy 190.5 92.71)
+			(xy 179.07 90.17) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1392,16 +1402,6 @@
 			(type default)
 		)
 		(uuid "b7df9239-d1df-4ea2-b20c-9e56c8436121")
-	)
-	(wire
-		(pts
-			(xy 151.13 92.71) (xy 171.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b65599-5c4a-4396-9ad7-233fddc4684a")
 	)
 	(wire
 		(pts
@@ -1435,7 +1435,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 87.63) (xy 151.13 92.71)
+			(xy 151.13 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6662d47-6258-48e4-b6b0-052f22f6bd7d")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 151.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2105,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 175.26 92.71 270)
+		(at 175.26 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2103,7 +2113,7 @@
 		(dnp no)
 		(uuid "6491e1eb-c4b9-4cbf-8187-b8b75588ca41")
 		(property "Reference" "R8"
-			(at 171.196 94.234 90)
+			(at 171.196 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2121,7 @@
 			)
 		)
 		(property "Value" "10000"
-			(at 178.054 94.234 90)
+			(at 178.054 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2130,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.006 93.726 90)
+			(at 175.006 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 92.71 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +2148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 92.71 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2339,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 193.04 92.71 270)
+		(at 193.04 90.17 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -2338,7 +2348,7 @@
 		(fields_autoplaced yes)
 		(uuid "95434a0f-922c-481f-8477-54a5d4f017fa")
 		(property "Reference" "O2"
-			(at 196.85 91.44 90)
+			(at 196.85 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2357,7 @@
 			)
 		)
 		(property "Value" "Lum_Out"
-			(at 196.85 93.98 90)
+			(at 196.85 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2366,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_Relief"
-			(at 193.04 92.71 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 92.71 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 92.71 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2393,7 @@
 			)
 		)
 		(property "Sim.Device" "TLINE"
-			(at 193.04 92.71 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2402,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1+"
-			(at 193.04 92.71 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
