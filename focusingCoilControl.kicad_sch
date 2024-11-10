@@ -2583,7 +2583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 148.59 0)
 			(effects
 				(font
@@ -2653,7 +2653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 54.61 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 121.92 0)
 			(effects
 				(font
@@ -2793,7 +2793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 109.22 0)
 			(effects
 				(font
@@ -3065,7 +3065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "crtDriver:ESP32-DOIT-DEVKIT"
 			(at 226.06 50.8 0)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 134.62 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 67.31 0)
 			(effects
 				(font
@@ -4252,7 +4252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 41.91 0)
 			(effects
 				(font
@@ -4462,7 +4462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 211.7852 81.28 0)
 			(effects
 				(font
