@@ -1489,9 +1489,20 @@
 		)
 		(uuid "ef5ad9bc-a578-423a-a7da-393056d6e60d")
 	)
+	(text "Specimen Chamber Vaccum Gauge and Valve"
+		(exclude_from_sim no)
+		(at 130.556 125.222 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "100e0ddc-5cdd-4946-9b8b-935c00905e6c")
+	)
 	(text "Secondary Electron Detector Amplifier"
 		(exclude_from_sim no)
-		(at 178.562 112.776 0)
+		(at 208.026 103.378 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1500,9 +1511,9 @@
 		)
 		(uuid "10268ff9-48f6-4e89-8c04-271ace0ee406")
 	)
-	(text "Joule Thompson cryocooler\ncompressor bldc driver"
+	(text "Joule Thompson cryocooler\ncompressor BLDC driver"
 		(exclude_from_sim no)
-		(at 139.446 147.828 0)
+		(at 139.446 149.352 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1511,9 +1522,9 @@
 		)
 		(uuid "3f79d0b8-2a6c-4e90-a14f-291acadba81e")
 	)
-	(text "Turbo pump bldc driver"
+	(text "Turbo pump BLDC driver"
 		(exclude_from_sim no)
-		(at 75.184 147.574 0)
+		(at 75.946 149.606 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1522,9 +1533,9 @@
 		)
 		(uuid "429ff009-ea44-4900-b38b-2ab9ff43b126")
 	)
-	(text "Specimen Stage Motion"
+	(text "Specimen Stage Tilt Rotation and Translation"
 		(exclude_from_sim no)
-		(at 175.514 43.688 0)
+		(at 178.308 38.354 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1533,9 +1544,9 @@
 		)
 		(uuid "42bfc513-7513-499a-84a0-77872338b3cc")
 	)
-	(text "Whenult / accleration cup voltage"
+	(text "Accleration cup voltage"
 		(exclude_from_sim no)
-		(at 75.692 107.188 0)
+		(at 75.946 110.49 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1544,9 +1555,9 @@
 		)
 		(uuid "4b5fabed-514b-49bb-963b-aaf08aa01e32")
 	)
-	(text "Backing pump bldc driver"
+	(text "Backing pump BLDC driver"
 		(exclude_from_sim no)
-		(at 75.438 172.212 0)
+		(at 75.946 173.99 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1566,9 +1577,42 @@
 		)
 		(uuid "5ca59153-9fc1-4adb-849a-3e0838086528")
 	)
+	(text "Gun and Column Vaccum Gauge and Valve"
+		(exclude_from_sim no)
+		(at 131.318 110.998 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "6afcf98c-20e0-4d56-86c5-cbb59659c9b4")
+	)
+	(text "Focusing coil control"
+		(exclude_from_sim no)
+		(at 61.468 63.754 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ea62a84-01cf-4062-b1da-2527e02ab91c")
+	)
+	(text "Specimen Probe Rotation and Translation"
+		(exclude_from_sim no)
+		(at 178.308 27.94 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "80832a06-9629-4d29-9852-4e2d83e1c039")
+	)
 	(text "Filament heater Transformer"
 		(exclude_from_sim no)
-		(at 75.692 110.744 0)
+		(at 75.692 113.03 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1579,7 +1623,7 @@
 	)
 	(text "Cathodoluminescence Detector Amplifier"
 		(exclude_from_sim no)
-		(at 178.308 121.92 0)
+		(at 208.026 113.792 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1601,7 +1645,7 @@
 	)
 	(text "Backscatter Electron Detector Amplifier"
 		(exclude_from_sim no)
-		(at 177.546 101.092 0)
+		(at 207.772 93.726 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1610,7 +1654,7 @@
 		)
 		(uuid "add75c61-f36e-4012-a880-423f6c6340cd")
 	)
-	(text "Emitted Beam Intensity Amplifier\n(for raster ion milling)"
+	(text "Emitted Beam Intensity Amplifier\nWehnelt / grid bias voltage\n(for raster ion milling)"
 		(exclude_from_sim no)
 		(at 176.784 59.436 0)
 		(effects
@@ -1632,7 +1676,7 @@
 		)
 		(uuid "b796a87d-b013-4d24-9fa6-0dc6470cba7e")
 	)
-	(text "Focusing coil control and web interface"
+	(text "System Control and Web Interface"
 		(exclude_from_sim no)
 		(at 100.33 42.164 0)
 		(effects
@@ -1645,7 +1689,7 @@
 	)
 	(text "Absorbed Electrons Detector Amplifier"
 		(exclude_from_sim no)
-		(at 177.8 134.874 0)
+		(at 208.28 126.492 0)
 		(effects
 			(font
 				(size 2 2)
