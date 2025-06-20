@@ -1751,7 +1751,6 @@
 	(hierarchical_label "SELECTED_RAMP_OUT"
 		(shape output)
 		(at 204.47 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,7 +1762,6 @@
 	(hierarchical_label "Scaled_Ramp_IN"
 		(shape input)
 		(at 69.85 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

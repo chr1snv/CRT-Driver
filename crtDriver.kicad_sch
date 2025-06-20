@@ -1291,7 +1291,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 162.56) (xy 139.7 162.56)
+			(xy 135.89 160.02) (xy 139.7 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 160.02) (xy 133.35 160.02)
+			(xy 139.7 157.48) (xy 133.35 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1401,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 162.56) (xy 135.89 168.91)
+			(xy 135.89 160.02) (xy 135.89 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1421,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 160.02) (xy 133.35 166.37)
+			(xy 133.35 157.48) (xy 133.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1489,9 +1489,20 @@
 		)
 		(uuid "ef5ad9bc-a578-423a-a7da-393056d6e60d")
 	)
+	(text "Secondary Electron Detector Amplifier"
+		(exclude_from_sim no)
+		(at 178.562 112.776 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "10268ff9-48f6-4e89-8c04-271ace0ee406")
+	)
 	(text "Joule Thompson cryocooler\ncompressor bldc driver"
 		(exclude_from_sim no)
-		(at 139.446 150.368 0)
+		(at 139.446 147.828 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1510,6 +1521,17 @@
 			(justify left bottom)
 		)
 		(uuid "429ff009-ea44-4900-b38b-2ab9ff43b126")
+	)
+	(text "Specimen Stage Motion"
+		(exclude_from_sim no)
+		(at 175.514 43.688 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "42bfc513-7513-499a-84a0-77872338b3cc")
 	)
 	(text "Whenult / accleration cup voltage"
 		(exclude_from_sim no)
@@ -1555,6 +1577,17 @@
 		)
 		(uuid "8f560cb1-35a9-4e1b-a05a-3e35955f5d98")
 	)
+	(text "Cathodoluminescence Detector Amplifier"
+		(exclude_from_sim no)
+		(at 178.308 121.92 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab900c59-1929-4659-bcea-5206b701709f")
+	)
 	(text ".OPTIONS ITL4=10\n.options abstol=0.03\n*.OPTIONS maxord=1\n*.options cshunt=1p\n*.options method=gear\n.options method=gear chgtol=1e-9 reltol=0.01 rshunt=1G rseries=0.05 cshunt=1p trtol=1\n*.tran 1m 20m uic\n.tran 1m 20m"
 		(exclude_from_sim no)
 		(at 75.438 32.512 0)
@@ -1566,9 +1599,20 @@
 		)
 		(uuid "ad0c6a04-6a49-4b1d-a8bb-685a66e819ee")
 	)
-	(text "Beam Intensity"
+	(text "Backscatter Electron Detector Amplifier"
 		(exclude_from_sim no)
-		(at 175.768 66.04 0)
+		(at 177.546 101.092 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "add75c61-f36e-4012-a880-423f6c6340cd")
+	)
+	(text "Emitted Beam Intensity Amplifier\n(for raster ion milling)"
+		(exclude_from_sim no)
+		(at 176.784 59.436 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1577,7 +1621,7 @@
 		)
 		(uuid "b3069a8f-e839-4d1f-bfc2-bad7dce50664")
 	)
-	(text "Beam Raster"
+	(text "Beam Raster Deflection DAC"
 		(exclude_from_sim no)
 		(at 99.822 66.802 0)
 		(effects
@@ -1588,7 +1632,7 @@
 		)
 		(uuid "b796a87d-b013-4d24-9fa6-0dc6470cba7e")
 	)
-	(text "Focusing coil control"
+	(text "Focusing coil control and web interface"
 		(exclude_from_sim no)
 		(at 100.33 42.164 0)
 		(effects
@@ -1598,6 +1642,17 @@
 			(justify left bottom)
 		)
 		(uuid "c484741b-6f87-4bc3-8881-338eeb00211a")
+	)
+	(text "Absorbed Electrons Detector Amplifier"
+		(exclude_from_sim no)
+		(at 177.8 134.874 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "cceeb0af-df9c-4ddc-9f58-3aba96793180")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3073,7 +3128,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 154.94)
+		(at 139.7 152.4)
 		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -3085,7 +3140,7 @@
 		)
 		(uuid "c4733130-d8c5-4553-8468-9dbbe828483a")
 		(property "Sheetname" "BLDC_Driver2"
-			(at 139.7 154.2284 0)
+			(at 139.7 151.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3149,7 @@
 			)
 		)
 		(property "Sheetfile" "BLDC_Driver.kicad_sch"
-			(at 139.7 165.6846 0)
+			(at 139.7 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3158,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 139.7 160.02 180)
+			(at 139.7 157.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3168,7 @@
 			(uuid "2ad0a6fd-dbf9-4bc8-b8ff-2336f6ca59cc")
 		)
 		(pin "SCL" input
-			(at 139.7 162.56 180)
+			(at 139.7 160.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3178,7 @@
 			(uuid "9466c08f-a451-4f4d-b155-47bcf85426a6")
 		)
 		(pin "B" output
-			(at 165.1 160.02 0)
+			(at 165.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3188,7 @@
 			(uuid "7b9c5560-7d79-41ff-ac41-c4905b05e7b8")
 		)
 		(pin "A" output
-			(at 165.1 157.48 0)
+			(at 165.1 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +3198,7 @@
 			(uuid "ba16f9cc-57c3-4788-af08-6285d9261288")
 		)
 		(pin "C" output
-			(at 165.1 162.56 0)
+			(at 165.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3334,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 71.12)
+		(at 177.8 63.5)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -3291,7 +3346,7 @@
 		)
 		(uuid "da9c9b91-ab42-45fd-890b-62edc8347f8c")
 		(property "Sheetname" "LuminosityAmplifier"
-			(at 176.53 70.4084 0)
+			(at 177.8 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3355,7 @@
 			)
 		)
 		(property "Sheetfile" "LuminosityAmplifier.kicad_sch"
-			(at 176.53 84.4046 0)
+			(at 177.8 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

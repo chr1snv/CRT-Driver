@@ -1894,10 +1894,20 @@
 		)
 		(uuid "c56f5bae-ef68-48ad-a15d-29a49d9b692e")
 	)
+	(text "faster current flow is stopped\nhigher flyback voltage"
+		(exclude_from_sim no)
+		(at 131.064 103.886 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe85d334-0f3c-4856-9161-f20ef8cfeb8e")
+	)
 	(hierarchical_label "H_Sync_Toggle"
 		(shape input)
 		(at 67.31 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
